@@ -8,7 +8,14 @@
 .categories img{
     width: 100px;
 }
-.panda-slide .carousel-item {
+.panda-info, .panda-slide .carousel-item {
     background-color:#FCEAE8;
     border-radius: 1em;
+}
+.panda-input{
+    border: 0;
+}
+input[type=text]:focus {
+    background-color: lightgray;
+   width: 60%;
 }
